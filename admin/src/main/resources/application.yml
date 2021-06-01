@@ -23,7 +23,7 @@ spring:
       force: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://127.0.0.1:3306/resource?useSSL=false&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=UTC
+    url: jdbc:mysql://cn1.utools.club:43670/resource?useSSL=false&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=UTC
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -45,8 +45,8 @@ spring:
         elideSetAutoCommits: true # 不进行 set autocommit
         maintainTimeStats: true # 更详细的错误信息，会多2次System.getCurrentTimeMillis()调用
   redis:
-    host: 127.0.0.1
-    port: 6379
+    host: cn1.utools.club
+    port: 38590
 #    password: 1T8C0clzNP0P6xXt9oVceIVQrBRmLf
     database: 0
     jedis:
